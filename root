@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TopTenner - Curate Your Culture</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #1f2937, #111827);
+      color: #f9fafb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+    header h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      background: linear-gradient(to right, #60a5fa, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    header p {
+      font-size: 1.25rem;
+      color: #d1d5db;
+      margin-top: 1rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cta {
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 9999px;
+      margin-top: 2rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+    }
+    .cta:hover {
+      background-color: #2563eb;
+      transform: translateY(-2px);
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      width: 100%;
+      margin-top: 3rem;
+    }
+    .feature {
+      background-color: #1f2937;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+    }
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+    .feature h3 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      color: #93c5fd;
+    }
+    .feature p {
+      font-size: 1rem;
+      color: #e5e7eb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TopTenner</h1>
+    <p>Curate your culture. Rank and share your top 10 movies, songs, albums, and more—by genre, decade, or mood. Discover taste, yours and theirs.</p>
+    <button class="cta">Start Listing</button>
+  </header>
+
+  <section class="features">
+    <div class="feature">
+      <h3>🎬 Top 10 Movies</h3>
+      <p>Rank your all-time favorites, or break it down by genre. Your cinematic taste deserves its own spotlight.</p>
+    </div>
+    <div class="feature">
+      <h3>🎧 Music & Albums</h3>
+      <p>Create lists for moods, decades, or genres. Discover music others swear by—and share your soundtrack of life.</p>
+    </div>
+    <div class="feature">
+      <h3>🌍 Compare & Connect</h3>
+      <p>See how your taste stacks up. Explore global charts, niche lists, or see who shares your vibes.</p>
+    </div>
+    <div class="feature">
+      <h3>🔐 Your Personal Vault</h3>
+      <p>Keep your lists private or make them public. Build your taste archive—evolving, personal, and uniquely you.</p>
+    </div>
+  </section>
+</body>
+</html>
